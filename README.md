@@ -1,6 +1,6 @@
 # Bepinex-IL2CPPBase
 
-This cheat base was made by me and @Cystemzz while making a cheat for a game.
+This cheat base was made by me and [Cystemz](https://github.com/Cystemzz) while making a cheat for a game.
 I've since updated it a lot making the code cleaner and also added code to
 allowed menus to move when clicking them (painful).
 
