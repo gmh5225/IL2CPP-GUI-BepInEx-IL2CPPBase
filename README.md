@@ -5,8 +5,7 @@ IL2CPPBase made by [Me](https://github.com/VerityIncorporated) & [Cystemz](https
 # How to use
 
 - Download Source
-- Replace DLL's
-- Build
+- Replace DLL's & Build
 - Put in Plugins Folder
 - Launch the chosen game and Enjoy
 
