@@ -19,6 +19,9 @@ namespace IL2CPPBase
 
     public class IL2CPPBase : MonoBehaviour
     {
+        private static readonly GUIStyle WatermarkGUIStyle = new();
+        private static readonly GUIStyle ArrayListGUIStyle = new();
+        
         public static Harmony Harmony = new("IL2CPPBase");
         
         public static void Initialize(Plugin plugin)
@@ -50,13 +53,43 @@ namespace IL2CPPBase
                 module.OnUpdate();
             }
         }
-            
+        
         private void OnGUI()
         {
+            ArrayList();
+            Watermark();
             foreach (var module in ModuleManager.Modules.Where(m => m.Enabled))
             {
                 module.OnGUI();
             }
+        }
+        
+        private static void ArrayList()
+        {
+            var rainbow = Color.HSVToRGB(Mathf.PingPong(Time.time * 0.30f, 1), 1, 1);
+            ArrayListGUIStyle.alignment = TextAnchor.MiddleRight;
+            ArrayListGUIStyle.normal.textColor = rainbow;
+            ArrayListGUIStyle.fontSize = 20;
+            
+            var modules = ModuleManager.Modules.Where(module => module.Enabled && module.Name != "GUI");
+            var orderedEnumerable = modules.OrderByDescending(x => x.Name.Length).ToArray();
+
+            var count = 0;
+            foreach (var module in orderedEnumerable)
+            {
+                count += 20;
+                GUI.Label(new Rect(1710, count, 200, 200), $"{module.Name}", ArrayListGUIStyle);
+            }
+        }
+
+        private static void Watermark()
+        {
+            var rainbow = Color.HSVToRGB(Mathf.PingPong(Time.time * 0.30f, 1), 1, 1);
+            WatermarkGUIStyle.alignment = TextAnchor.UpperLeft;
+            WatermarkGUIStyle.normal.textColor = rainbow;
+            WatermarkGUIStyle.fontSize = 25;
+            
+            GUI.Label(new Rect(10, 5, 200, 200), "IL2CPPBase by Verity", WatermarkGUIStyle);
         }
     }
 }

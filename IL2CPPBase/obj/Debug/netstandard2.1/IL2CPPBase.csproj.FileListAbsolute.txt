@@ -1,0 +1,15 @@
+C:\Users\Verity\Documents\GitHub\Bepinex-IL2CPPBase\IL2CPPBase\bin\Debug\netstandard2.1\IL2CPPBase.deps.json
+C:\Users\Verity\Documents\GitHub\Bepinex-IL2CPPBase\IL2CPPBase\bin\Debug\netstandard2.1\IL2CPPBase.dll
+C:\Users\Verity\Documents\GitHub\Bepinex-IL2CPPBase\IL2CPPBase\bin\Debug\netstandard2.1\IL2CPPBase.pdb
+C:\Users\Verity\Documents\GitHub\Bepinex-IL2CPPBase\IL2CPPBase\bin\Debug\netstandard2.1\BepInEx.Core.xml
+C:\Users\Verity\Documents\GitHub\Bepinex-IL2CPPBase\IL2CPPBase\bin\Debug\netstandard2.1\BepInEx.IL2CPP.dll.config
+C:\Users\Verity\Documents\GitHub\Bepinex-IL2CPPBase\IL2CPPBase\bin\Debug\netstandard2.1\BepInEx.Preloader.Core.xml
+C:\Users\Verity\Documents\GitHub\Bepinex-IL2CPPBase\IL2CPPBase\obj\Debug\netstandard2.1\IL2CPPBase.csproj.AssemblyReference.cache
+C:\Users\Verity\Documents\GitHub\Bepinex-IL2CPPBase\IL2CPPBase\obj\Debug\netstandard2.1\IL2CPPBase.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Verity\Documents\GitHub\Bepinex-IL2CPPBase\IL2CPPBase\obj\Debug\netstandard2.1\IL2CPPBase.AssemblyInfoInputs.cache
+C:\Users\Verity\Documents\GitHub\Bepinex-IL2CPPBase\IL2CPPBase\obj\Debug\netstandard2.1\IL2CPPBase.AssemblyInfo.cs
+C:\Users\Verity\Documents\GitHub\Bepinex-IL2CPPBase\IL2CPPBase\obj\Debug\netstandard2.1\IL2CPPBase.csproj.CoreCompileInputs.cache
+C:\Users\Verity\Documents\GitHub\Bepinex-IL2CPPBase\IL2CPPBase\obj\Debug\netstandard2.1\IL2CPPBase.csproj.Fody.CopyLocal.cache
+C:\Users\Verity\Documents\GitHub\Bepinex-IL2CPPBase\IL2CPPBase\obj\Debug\netstandard2.1\IL2CPPBase.csproj.CopyComplete
+C:\Users\Verity\Documents\GitHub\Bepinex-IL2CPPBase\IL2CPPBase\obj\Debug\netstandard2.1\IL2CPPBase.dll
+C:\Users\Verity\Documents\GitHub\Bepinex-IL2CPPBase\IL2CPPBase\obj\Debug\netstandard2.1\IL2CPPBase.pdb

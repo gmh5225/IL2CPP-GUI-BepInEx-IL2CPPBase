@@ -1,4 +1,5 @@
 ﻿using IL2CPPBase.Misc;
+using Steamworks;
 using UnityEngine;
 
 namespace IL2CPPBase.ModuleSystem.Visuals
@@ -11,7 +12,7 @@ namespace IL2CPPBase.ModuleSystem.Visuals
 
         public override void OnGUI()
         {
-            var rainbow = Color.HSVToRGB(Mathf.PingPong(Time.time * 0.35f, 1), 1, 1);
+            var rainbow = Color.HSVToRGB(Mathf.PingPong(Time.time * 0.30f, 1), 1, 1);
             for (var i = 0; i < ModuleManager.Categories.Count; i++)
             {
                 var moduleCount = CountModules(i);
@@ -59,7 +60,6 @@ namespace IL2CPPBase.ModuleSystem.Visuals
                 }
                 i++;
             }
-
             GUI.DragWindow();
         }
     }
